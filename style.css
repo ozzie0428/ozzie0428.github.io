@@ -1,0 +1,140 @@
+html {
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/exclusive-paper.png"); 
+}
+
+header  {
+   /* background-color:blue;  */
+   
+}
+
+
+h1 {
+    /* background: pink; */
+    color: whitesmoke;
+    margin-left: 37%;
+    margin-bottom: auto;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+body {
+    color: whitesmoke;
+    
+}
+
+nav {
+    /* background: white; */
+    margin-left:  25%;
+    
+  
+   
+}
+
+nav li {
+    
+    display: inline-block;
+    margin-bottom: 50px;
+    border: .3rem solid white;
+    padding: 0px 5px;
+    
+}
+
+nav li a {
+    text-align: center;
+    color: white;
+    background-color:rgb(56, 54, 54);
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1rem;
+    
+
+}
+
+main { 
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 10px solid goldenrod; */
+   
+}
+
+img {
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    border: 5px dotted  rgb(161, 22, 22);
+    border-radius: 50%;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 1em;
+
+  
+}
+
+.tools {
+    /* background-color:green; */
+    text-align: center;
+    list-style-position: inside;
+    border: 5px solid  rgb(161, 22, 22);
+    margin-top: 1em;
+   
+    
+}
+
+.school {
+    /* background-color:rgb(46, 9, 9); */
+    border: 5px solid  rgb(161, 22, 22);
+    margin-bottom: 1em;
+}
+
+.done {
+   /* background-color: blueviolet;  */
+   border: 5px solid  rgb(161, 22, 22);
+   padding: 10px;
+   text-align: center;
+   min-width: 45%;
+   margin-left: 1em;
+}
+
+.me {
+    /* background-color: aqua; */
+    padding: 10px;
+    border: 5px solid rgb(161, 22, 22);
+    text-align: center;
+    max-width: 47%;
+    margin-right: 1em;
+}
+
+aside {
+    /* margin: 0; */
+    padding: 0;
+	width: 29%;
+    margin-top: 2em; /* =108px, em means parent font size times 6 */
+    margin-left: 35%;
+}
+
+footer {
+    display: flex;
+    /* justify-content: flex-end; */
+    
+}
+
+h1 em {
+    font-size: 54px;
+    color: rgb(161, 22, 22);
+}
+footer h3 {
+    font-size: 2em;
+    color: rgb(161, 22, 22);
+    margin-top: 0;
+    padding:0;
+    /* border: 10px solid white; */
+}
+
